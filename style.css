@@ -3,16 +3,23 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 640px) {
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 32px !important;
+  }
+}
 
 body {
-  margin: 60px auto;
+  margin: 60px auto !important;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -65,10 +72,6 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-.about {
-  font-size: 96px;
-  margin: 30px;
 }
 
 .about-paragraphs {
